@@ -23,9 +23,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <div><img src="/svg/logo.svg" style="max-height: 25px"></div>
-                    <div>Laraphotoshare</div>
+                <a class="navbar-brand d-flex" href="{{ url('/') }}">
+                    <div><img src="/svg/logo.svg" style="height: 32px; border-right: 2px solid #000" class="pr-3"></div>
+                    <div class="pl-3 pt-1">Laraphotoshare</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
