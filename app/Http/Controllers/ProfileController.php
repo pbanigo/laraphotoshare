@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 
 class ProfileController extends Controller
@@ -11,9 +12,15 @@ class ProfileController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    //$user means the index would index a particular $user from the Database
+    public function index(User $user)
     {
-        return view('home');//
+        //Picks a specific user
+        //Since the User model is not in the same namespace as this, use App/User has to be specified at the top
+        $user = User::find($user);
+        return view('home', [
+            'user' => $user
+        ]);//
     }
 
     /**
