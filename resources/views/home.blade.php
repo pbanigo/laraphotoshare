@@ -6,13 +6,13 @@
 <div class="row">
     <div class="col-4 p-5"><img src="https://targetict.co.uk/assets/images/logo.jpg" class="rounded-circle"></div>
     <div class="col-8">
-        <div class="pt-5"><h1>{{ Auth::user()->username }}</h1></div>
+        <div class="pt-5"><h1>{{ 'user'}}</h1></div>
         <div class="d-flex">
         	<div class="pr-5"><strong>59</strong> posts</div>
         	<div class="pr-5"><strong>11k</strong> followers</div>
         	<div class="pr-5"><strong>900</strong> following</div>
         </div>
-        <div class="pt-4 font-weight-bold">{{ Auth::user()->name }}</div>
+        <div class="pt-4 font-weight-bold">{{ $user}}</div>
         <div>🇬🇧 Global Digital/ICT Consultancy<br>
         	💻 #WebDevelopment<br>	
 			🖥 #iOSApp and #AndroidApp Dev<br>
