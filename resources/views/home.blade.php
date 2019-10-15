@@ -6,7 +6,7 @@
 <div class="row">
     <div class="col-4 p-5"><img src="https://targetict.co.uk/assets/images/logo.jpg" class="rounded-circle"></div>
     <div class="col-8">
-        <div class="pt-5"><h1>{{ 'user'}}</h1></div>
+        <div class="pt-5"><h1>{{ $user}}</h1></div>
         <div class="d-flex">
         	<div class="pr-5"><strong>59</strong> posts</div>
         	<div class="pr-5"><strong>11k</strong> followers</div>
@@ -31,15 +31,15 @@
 </div>
 
 <div class="row pt-5">
-	<div class="col-4"><img src="/images/1PAGEBUSINESSPLAN.png" class="w-100"></div>
-	<div class="col-4"><img src="/images/AUTOMATE.png" class="w-100"></div>
-	<div class="col-4"><img src="/images/SAVETIME.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/lOOKING.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/RECORDPROCESS.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/SLOWCOMPUTER.png" class="w-100"></div>
 </div>
 
 <div class="row pt-5">
-	<div class="col-4"><img src="/images/1PAGEBUSINESSPLAN.png" class="w-100"></div>
-	<div class="col-4"><img src="/images/AUTOMATE.png" class="w-100"></div>
-	<div class="col-4"><img src="/images/SAVETIME.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/PLantTree.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/GETORGANIZED.png" class="w-100"></div>
+	<div class="col-4"><img src="/images/AWESOMEWEBSITES.png" class="w-100"></div>
 </div>
 
 
