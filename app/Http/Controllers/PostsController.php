@@ -2,25 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use Illuminate\Http\Request;
 
-class ProfileController extends Controller
+class PostsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    //$user means the index would index a particular $user from the Database
-    public function index(User $user)
+    public function index()
     {
-        //Picks a specific user
-        //Since the User model is not in the same namespace as this, use App/User has to be specified at the top
-        $user = User::find($user);
-        return view('home', [
-            'user' => $user
-        ]);//
+        //
     }
 
     /**
@@ -30,7 +23,7 @@ class ProfileController extends Controller
      */
     public function create()
     {
-        //
+        return view('posts.create');//
     }
 
     /**
